@@ -64,7 +64,7 @@ const fun2 = (param) => {
     param();
 };
 
-fun2(() => { console.log('a function invoked'); });
+fun2(() => { console.log('anonymous function invoked'); });
 
 const anotherFun = () => { console.log('anotherFun invoked') };
 fun2(anotherFun);
