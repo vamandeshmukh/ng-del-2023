@@ -6,7 +6,12 @@
 
 
 console.log('One');
-setTimeout(() => { }, 2000);
-console.log('Two');
+setTimeout(() => { console.log('Two'); }, 2000);
 console.log('Three');
+
+
+
+
+
+
 
