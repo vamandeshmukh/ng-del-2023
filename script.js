@@ -46,11 +46,36 @@
 
 
 
+// const getFun = (param) => {
+//     console.log(param.city);
+// };
+
+// const empData = {
+//     eid: 101,
+//     firstName: 'Sonu',
+//     salary: 10.5,
+//     city: 'Mumbai'
+// };
+
+// getFun(empData);
+
+const fun2 = (param) => {
+    console.log('fun2 invoked');
+    param();
+};
+
+fun2(() => { console.log('a function invoked'); });
+
+const anotherFun = () => { console.log('anotherFun invoked') };
+fun2(anotherFun);
 
 
+// const printNum = (num) => { console.log(num); };
 
+// printNum(10);
 
-
+// let abc = 11;
+// printNum(abc);
 
 
 
