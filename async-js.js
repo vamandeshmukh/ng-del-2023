@@ -9,15 +9,33 @@
 // console.log('Three');
 
 
-const getMessage = () => {
+// // problem of async JS 
+// const getMessage = () => {
+//     console.log('getMessage invoked.');
+//     setTimeout(() => {
+//         return { text: 'Have fun!' };
+//     }, 2000);
+// };
+
+// const message = getMessage();
+// console.log(message.text);
+
+// solution 1: use callback  
+const getMessage = (arg) => {
     console.log('getMessage invoked.');
     setTimeout(() => {
-        return { text: 'Have fun!' };
+        arg({ text: 'Have fun!' });
     }, 2000);
 };
 
-const message = getMessage();
-console.log(message.text);
+// getMessage((abc) => { });
+getMessage((abc) => {
+    console.log('anonymous function invoked.');
+    console.log(abc.text);
+});
+
+
+
 
 
 
