@@ -23,14 +23,19 @@
 
 // Modern JS 
 
-const fun = () => {
-    console.log('Hello world!');
+// const fun = () => {
+//     console.log('Hello world!');
+// };
+
+// fun();
+
+const addGst = (amount) => {
+    return amount + (amount * 0.18);
 };
 
-fun();
+let finalBill = addGst(100);
 
-
-
+console.log(finalBill);
 
 
 
