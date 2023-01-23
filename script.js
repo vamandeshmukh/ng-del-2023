@@ -27,15 +27,23 @@
 //     console.log('Hello world!');
 // };
 
+// const fun = () => console.log('Hello world!');
+
 // fun();
 
-const addGst = (amount) => {
-    return amount + (amount * 0.18);
-};
+// const addGst = (amount) => {
+//     return amount + (amount * 0.18);
+// };
 
-let finalBill = addGst(100);
+// const addGst = amount => {
+//     return amount + (amount * 0.18);
+// };
 
-console.log(finalBill);
+// const addGst = amount => amount + (amount * 0.18);
+
+// let finalBill = addGst(100);
+// console.log(finalBill);
+
 
 
 
