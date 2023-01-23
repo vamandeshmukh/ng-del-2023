@@ -1,6 +1,6 @@
 
-console.log('Hello world!');
-console.log(10 + 20);
+// console.log('Hello world!');
+// console.log(10 + 20);
 
 // Java -
 // int num = 10;
@@ -12,6 +12,38 @@ console.log(10 + 20);
 // let num4 = 40; // use this for "variable" variables
 
 // number, string, boolean 
+
+// // Old JS 
+
+// function fun() {
+//     console.log('Hello world!');
+// };
+
+// fun();
+
+// Modern JS 
+
+const fun = () => {
+    console.log('Hello world!');
+};
+
+fun();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
